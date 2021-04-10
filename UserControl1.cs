@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pharma
+namespace PMS
 {
     public partial class UserControl1 : UserControl
     {
@@ -49,6 +49,11 @@ namespace Pharma
         }
 
         private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserControl1_Load_2(object sender, EventArgs e)
         {
 
         }

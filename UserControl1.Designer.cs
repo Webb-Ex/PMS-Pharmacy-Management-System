@@ -1,5 +1,5 @@
 ﻿
-namespace Pharma
+namespace PMS
 {
     partial class UserControl1
     {
@@ -446,6 +446,7 @@ namespace Pharma
             this.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Name = "UserControl1";
             this.Size = new System.Drawing.Size(1767, 1211);
+            this.Load += new System.EventHandler(this.UserControl1_Load_2);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

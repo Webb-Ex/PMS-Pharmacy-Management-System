@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pharma
+namespace PMS
 {
     public partial class Form1 : Form
     {
@@ -38,6 +38,11 @@ namespace Pharma
         }
 
         private void b2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
