@@ -33,9 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bunifu_UI_v1.52 %281%29">
-      <HintPath>..\..\..\Downloads\Bunifu_UI_v1.52 (1).dll</HintPath>
-    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -160,6 +159,16 @@
     <Content Include="Resources\Rectangle 30.png" />
     <None Include="Resources\Rectangle 301.png" />
     <Content Include="Resources\Rectangle 40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BussinessAccessLayer\BussinessAccessLayer.csproj">
+      <Project>{b42b6150-ac93-4ee4-ae09-c1ee988de844}</Project>
+      <Name>BussinessAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{329d4c0c-e83c-4c63-ab72-30583d6828a1}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

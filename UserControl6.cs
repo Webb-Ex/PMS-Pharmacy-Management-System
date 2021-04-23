@@ -21,5 +21,10 @@ namespace PMS
         {
 
         }
+
+        private void UserControl6_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
